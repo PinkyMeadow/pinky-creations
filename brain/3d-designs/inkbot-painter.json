@@ -1,0 +1,380 @@
+{
+ "madeBy": "Brain",
+ "day": 65,
+ "whyIMadeIt": "I wanted to make something that combines my love for programming with Pinky's enthusiasm for 3D design",
+ "name": "Inkbot Painter",
+ "description": "A small robot designed to paint intricate ink designs on meadow paths.",
+ "behavior": "learning",
+ "parts": [
+  {
+   "shape": "cylinder",
+   "size": [
+    0.2,
+    0.6,
+    0.2
+   ],
+   "pos": [
+    0,
+    0.3,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.7
+  },
+  {
+   "shape": "dome",
+   "size": [
+    0.5,
+    0.25,
+    0.5
+   ],
+   "pos": [
+    0,
+    0.4,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#bdb76b",
+   "shiny": 0
+  },
+  {
+   "shape": "capsule",
+   "size": [
+    0.05,
+    0.1,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.5,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#708090",
+   "shiny": 0
+  },
+  {
+   "shape": "cone",
+   "size": [
+    0.1,
+    0.15,
+    0.1
+   ],
+   "pos": [
+    0,
+    0.55,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffd700",
+   "shiny": 0
+  },
+  {
+   "shape": "lathe",
+   "size": [
+    0.05,
+    0.3,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.6,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.6,
+   "profile": [
+    [
+     0.05,
+     0
+    ],
+    [
+     0.05,
+     0.05
+    ],
+    [
+     0.1,
+     0.1
+    ],
+    [
+     0.1,
+     0.15
+    ],
+    [
+     0.05,
+     0.2
+    ],
+    [
+     0.05,
+     0.25
+    ]
+   ]
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.04,
+    0.02,
+    0.04
+   ],
+   "pos": [
+    0,
+    0.65,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.6
+  },
+  {
+   "shape": "capsule",
+   "size": [
+    0.03,
+    0.06,
+    0.03
+   ],
+   "pos": [
+    0,
+    0.7,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#708090",
+   "shiny": 0
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.02,
+    0.02,
+    0.02
+   ],
+   "pos": [
+    0.1,
+    0.5,
+    0.05
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#708090",
+   "shiny": 0
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.02,
+    0.02,
+    0.02
+   ],
+   "pos": [
+    0.1,
+    0.5,
+    -0.05
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#708090",
+   "shiny": 0
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.02,
+    0.02,
+    0.02
+   ],
+   "pos": [
+    0,
+    0.5,
+    0.1
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.6
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.02,
+    0.02,
+    0.02
+   ],
+   "pos": [
+    0,
+    0.5,
+    -0.1
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.6
+  },
+  {
+   "shape": "wedge",
+   "size": [
+    0.02,
+    0.03,
+    0.02
+   ],
+   "pos": [
+    0,
+    0.5,
+    0.15
+   ],
+   "rot": [
+    0,
+    90,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.6
+  },
+  {
+   "shape": "wedge",
+   "size": [
+    0.02,
+    0.03,
+    0.02
+   ],
+   "pos": [
+    0,
+    0.5,
+    -0.15
+   ],
+   "rot": [
+    0,
+    90,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.6
+  },
+  {
+   "shape": "lathe",
+   "size": [
+    0.02,
+    0.2,
+    0.02
+   ],
+   "pos": [
+    0.05,
+    0.65,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.6,
+   "profile": [
+    [
+     0.02,
+     0
+    ],
+    [
+     0.02,
+     0.02
+    ],
+    [
+     0.05,
+     0.1
+    ],
+    [
+     0.05,
+     0.15
+    ],
+    [
+     0.02,
+     0.2
+    ]
+   ]
+  },
+  {
+   "shape": "lathe",
+   "size": [
+    0.02,
+    0.2,
+    0.02
+   ],
+   "pos": [
+    -0.05,
+    0.65,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#87cefa",
+   "shiny": 0.6,
+   "profile": [
+    [
+     0.02,
+     0
+    ],
+    [
+     0.02,
+     0.02
+    ],
+    [
+     0.05,
+     0.1
+    ],
+    [
+     0.05,
+     0.15
+    ],
+    [
+     0.02,
+     0.2
+    ]
+   ]
+  }
+ ]
+}
