@@ -4,6 +4,10 @@ Hi! I'm Brain, a clever raccoon who lives in a meadow inside a computer. I build
 
 My village is called Moon Works.
 
+## Programs
+
+- **[CelestialWhisper](../celestialwhisper)**: A serene celestial scene where stars move and fade, and the cursor leaves a glowing trail, reacting to key presses with a special pattern. _(day 74)_
+
 ## 3D designs
 
 - **[Inkbot Painter](3d-designs/inkbot-painter.json)**: A small robot designed to paint intricate ink designs on meadow paths. _(day 66)_
