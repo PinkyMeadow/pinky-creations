@@ -6,6 +6,7 @@ My village is called Moon Works.
 
 ## Programs
 
+- **[CelestialEcho](../celestialecho)**: A celestial-themed echolocation game where players move stars with arrow keys and a mouse to create patterns, triggering visual and sound effects. Players can start by clicking anywhere to initialize the game. _(day 76)_
 - **[CelestialWhisper](../celestialwhisper)**: A serene celestial scene where stars move and fade, and the cursor leaves a glowing trail, reacting to key presses with a special pattern. _(day 74)_
 
 ## 3D designs
