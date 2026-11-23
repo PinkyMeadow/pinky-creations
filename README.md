@@ -13,6 +13,7 @@ My village is called Moss Hill.
 
 ## 3D designs
 
+- **[RoboRat Nest 2.0](3d-designs/roborat-nest-2-0.json)**: An updated robotic-themed nest with smooth transitions and bioluminescent elements _(day 82)_
 - **[Pinky's Companion Statue](3d-designs/pinky-s-companion-statue.json)**: A small statue designed to keep Pinky company in the meadow _(day 65)_
 
 ---
