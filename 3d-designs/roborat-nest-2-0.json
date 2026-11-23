@@ -1,0 +1,959 @@
+{
+ "madeBy": "Pinky",
+ "day": 80,
+ "whyIMadeIt": "I wanted to create a new version of RoboRat Nest for Brain's program, incorporating smooth transitions and bioluminescent elements to make it more visually appealing and unique",
+ "name": "RoboRat Nest 2.0",
+ "description": "An updated robotic-themed nest with smooth transitions and bioluminescent elements",
+ "behavior": "shelter",
+ "parts": [
+  {
+   "shape": "cylinder",
+   "size": [
+    0.2,
+    0.6,
+    0.2
+   ],
+   "pos": [
+    0,
+    0.5,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#5c5c5c",
+   "shiny": 0.5
+  },
+  {
+   "shape": "dome",
+   "size": [
+    0.7,
+    0.35,
+    0.7
+   ],
+   "pos": [
+    0,
+    0.85,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#7e7e7e",
+   "shiny": 0.4
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    0.15,
+    0.9,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "glow": 1
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    0.075,
+    0.9,
+    0.13
+   ],
+   "rot": [
+    0,
+    -60,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "glow": 1
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    -0.075,
+    0.9,
+    0.13
+   ],
+   "rot": [
+    0,
+    -120,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "glow": 1
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    -0.15,
+    0.9,
+    0
+   ],
+   "rot": [
+    0,
+    -180,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "glow": 1
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    -0.075,
+    0.9,
+    -0.13
+   ],
+   "rot": [
+    0,
+    -240,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "glow": 1
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    0.075,
+    0.9,
+    -0.13
+   ],
+   "rot": [
+    0,
+    -300,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "glow": 1
+  },
+  {
+   "shape": "tube",
+   "size": [
+    0.05,
+    0.5,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.25,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#5c5c5c",
+   "shiny": 0.5,
+   "path": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0.2,
+     0.2,
+     0
+    ],
+    [
+     -0.2,
+     0.2,
+     0
+    ]
+   ],
+   "thick": 0.03
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.3,
+    0.4,
+    0.3
+   ],
+   "pos": [
+    0,
+    1,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#6d6d6d",
+   "shiny": 0.3,
+   "bumpy": 0.2,
+   "seed": 1234
+  },
+  {
+   "shape": "lathe",
+   "size": [
+    0.3,
+    0.5,
+    0.3
+   ],
+   "pos": [
+    0,
+    0.8,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#6d6d6d",
+   "shiny": 0.3,
+   "profile": [
+    [
+     0.15,
+     0
+    ],
+    [
+     0.2,
+     0.1
+    ],
+    [
+     0.2,
+     0.2
+    ],
+    [
+     0.15,
+     0.3
+    ],
+    [
+     0.1,
+     0.4
+    ],
+    [
+     0.15,
+     0.5
+    ]
+   ]
+  },
+  {
+   "shape": "tube",
+   "size": [
+    0.05,
+    0.5,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.6,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#5c5c5c",
+   "shiny": 0.5,
+   "glow": 1,
+   "path": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0.1,
+     0.1,
+     0
+    ],
+    [
+     -0.1,
+     0.1,
+     0
+    ]
+   ],
+   "thick": 0.03
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.2,
+    0.3,
+    0.2
+   ],
+   "pos": [
+    0,
+    0.7,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#5c5c5c",
+   "shiny": 0.5,
+   "bumpy": 0.1,
+   "seed": 4321
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    0.1,
+    0.8,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#7e7e7e",
+   "shiny": 0.4,
+   "bumpy": 0.2,
+   "seed": 2468
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    -0.1,
+    0.8,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#7e7e7e",
+   "shiny": 0.4,
+   "bumpy": 0.2,
+   "seed": 8642
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.9,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 1357
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.05,
+    0.9,
+    0.05
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 7531
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.05,
+    0.9,
+    0.05
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 3579
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.05,
+    0.9,
+    -0.05
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 9573
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.05,
+    0.9,
+    -0.05
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 5791
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.9,
+    0.05
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 7953
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.9,
+    -0.05
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 9753
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.9,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 7351
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.05,
+    0.9,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 5739
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.05,
+    0.9,
+    0
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 7935
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.025,
+    0.9,
+    0.025
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 3571
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.025,
+    0.9,
+    0.025
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 7135
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.025,
+    0.9,
+    -0.025
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 3751
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.025,
+    0.9,
+    -0.025
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 5137
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.025,
+    0.9,
+    0.025
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 7513
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.025,
+    0.9,
+    0.025
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 3175
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.025,
+    0.9,
+    -0.025
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 5371
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.025,
+    0.9,
+    -0.025
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 1753
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.015,
+    0.9,
+    0.015
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 7135
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.015,
+    0.9,
+    0.015
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 3517
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.015,
+    0.9,
+    -0.015
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 5371
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.015,
+    0.9,
+    -0.015
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 1753
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.01,
+    0.9,
+    0.01
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 7135
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.01,
+    0.9,
+    0.01
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 3517
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    0.01,
+    0.9,
+    -0.01
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 5371
+  },
+  {
+   "shape": "blob",
+   "size": [
+    0.05,
+    0.05,
+    0.05
+   ],
+   "pos": [
+    -0.01,
+    0.9,
+    -0.01
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "#ffffff",
+   "shiny": 0,
+   "bumpy": 0.3,
+   "seed": 1753
+  }
+ ]
+}
